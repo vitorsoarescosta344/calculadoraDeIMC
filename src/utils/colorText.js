@@ -18,9 +18,9 @@ export default function colorText(value) {
 
   //   return color;
   if (value < 18.5) return colors[0];
-  else if (value >= 18.5 && value <= 24.9) return colors[1];
-  else if (value >= 25 && value <= 29.9) return colors[2];
-  else if (value >= 30 && value <= 39.9) return colors[3];
+  else if (value >= 18.5 && value <= 24.999) return colors[1];
+  else if (value >= 25 && value <= 29.999) return colors[2];
+  else if (value >= 30 && value <= 39.999) return colors[3];
   else if (value >= 40) return colors[4];
   else return 'gray';
 }
